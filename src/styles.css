@@ -1,0 +1,457 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+/* --------------------    home   --------------------- */
+
+.homepage {
+  background-image: url("https://img.freepik.com/free-photo/modern-business-building-with-glass-wall-from-empty-floor_1127-3084.jpg?w=996&t=st=1689581329~exp=1689581929~hmac=285f9504371bf854d9d80ddffdffaa5db8b0eaa81d56e73480d4500845d8f3c8");
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+/* ------homenav------ */
+.navpage {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 0.5vw 5vw;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  width: 90%;
+  z-index: 2;
+}
+
+.ref img {
+  color: white;
+}
+
+.ref {
+  color: white;
+  display: flex;
+  list-style-type: none;
+  padding-top: 1%;
+}
+
+.ref li {
+  padding-right: 2rem;
+  text-decoration: none;
+}
+
+.ref a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.ref button {
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: blue;
+}
+
+.ref button:hover {
+  padding: 0.8rem 1.3rem;
+  font-size: 1rem;
+}
+/* --------X--------- */
+
+.content {
+  float: left;
+  width: 50%;
+  text-align: left;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+.content h1 {
+  font-weight: bold;
+  font-size: 4em;
+}
+
+.content p {
+  color: white;
+  font-size: 1.2rem;
+  padding-top: 7%;
+}
+
+.box {
+  height: 10vh;
+  width: 38vw;
+  border: 3px solid grey;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-top: 3%;
+}
+
+.box i {
+  color: rgba(9, 9, 249, 0.758);
+  font-size: 1.5rem;
+  padding-left: 2vh;
+}
+
+.box input {
+  margin: 5% 10%;
+  width: 55%;
+  border: none;
+}
+
+.box button {
+  background-color: rgba(9, 9, 249, 0.758);
+  border-radius: 0.3rem;
+  padding: 2% 3%;
+  color: white;
+  font-size: 1rem;
+  border: none;
+}
+
+.box button:hover {
+  padding: 2.5% 3.5%;
+}
+
+.homeimg {
+  float: right;
+  width: 50%;
+  /* border: 2px solid red; */
+}
+
+.homeimg img {
+  margin: 5% 5%;
+  height: 90vh;
+  width: 40vw;
+  border-radius: 50% 50% 0 0;
+}
+
+.price {
+  display: flex;
+}
+
+.pricevalue p {
+  margin: 2% 1.5%;
+  color: brown;
+  font-weight: 600;
+  font-style: italic;
+}
+
+/* ---------------------     Residencies     -------------------- */
+
+span {
+  color: orange;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.symbol {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+}
+
+.symbol img {
+  width: 15vw;
+  margin: 5% 10%;
+}
+
+.heading {
+  margin: 5%;
+  /* color:indigo; */
+}
+
+.scrollimage {
+  display: flex;
+  margin: 4% 5%;
+  /* border: 2px solid green; */
+}
+
+
+/* .scroll {
+  /* padding: 0% 5% 2% 0; */
+  /* border: 2px solid red; */
+} */
+
+.scroll:hover {
+  margin: 1% 0.5%;
+  background-color: rgba(201, 235, 247, 0.555);
+}
+
+.scroll img {
+  width:20vw;
+  height: 20vw;
+  border-radius: 1rem;
+  /* border: 2px solid red; */
+}
+
+.arrowbutton {
+  padding: 4%;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  color: blue;
+  font-weight: bold;
+}
+
+.arrowbutton:hover {
+  padding: 5%;
+  background-color: rgba(201, 235, 247, 0.555);
+}
+
+/* ----------------------------       Ourvalue          ------------------------- */
+
+.value {
+  /* margin: 0% 5% 5% 5%; */
+  /* border: 2px solid green; */
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+.figure {
+  width: 50%;
+  margin-top: 6%;
+  padding-left: 5%;
+  /* border: 2px solid red; */
+}
+
+.figure img {
+  width: 80%;
+  height: 100%;
+  border-radius: 50% 50% 0 0;
+}
+
+.valuecontent {
+  width: 40%;
+  margin-top: 6%;
+}
+
+.valueheading h2 {
+  color: orange;
+  font-size: 1.8rem;
+}
+
+.valueheading h1 {
+  padding: 1rem 0;
+  font-weight: bolder;
+}
+
+.valueheading p {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: rgb(68, 67, 67);
+}
+
+.benifithead {
+  width: 95%;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  /* box-shadow:  3px 8px lightblue; */
+}
+
+.bhead {
+  display: flex;
+  padding: 3% 0%;
+  justify-content: space-around;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.benifithead p {
+  padding: 3% 3%;
+  font-size: 1.1rem;
+  color: rgb(68, 67, 67);
+}
+
+.b1 {
+  padding: 2%;
+  background-color: lightblue;
+  border-radius: 0.5rem;
+  color: blue;
+  font-size: 0.8rem;
+}
+
+/* ---------------------------        contact       ---------------------------- */
+
+.Contact {
+  display: flex;
+  padding: 3% 3%;
+}
+
+.contactdetail {
+  width: 50%;
+}
+
+.contactdetail h2 {
+  margin-top: 8%;
+  color: orange;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 3% 0%;
+}
+
+.contactdetail h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contactdetail p {
+  color: rgb(68, 67, 67);
+  font-size: 1rem;
+  margin-bottom: 8%;
+}
+
+.callformat {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.call {
+  width: 35%;
+  border: 0.2px solid grey;
+  margin-left: 6%;
+  margin-bottom: 4%;
+  padding: 2% 3%;
+  border-radius: 0.5rem;
+}
+
+.call:hover {
+  padding: 3% 4%;
+  margin-left: 1% 4% 2% 1%;
+  margin-bottom: 2%;
+  background-color: rgba(201, 235, 247, 0.555);
+  box-shadow: 0px 10px rgba(21, 135, 180, 0.3);
+}
+
+.calldesign {
+  display: flex;
+  height: 70%;
+}
+
+.calldesign i {
+  font-size: 2rem;
+  margin: 0% 2%;
+  padding: 0% 2%;
+  color: rgba(2, 2, 240, 0.815);
+  background-color: lightskyblue;
+  padding-top: 4%;
+  height: 50%;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.call button {
+  margin: 0% 1%;
+  font-size: 1.2rem;
+  color: rgba(2, 2, 240, 0.815);
+  padding: 2% 0%;
+  background-color: lightskyblue;
+  border-radius: 0.5rem;
+  font-weight: bolder;
+  text-align: center;
+  width: 100%;
+  border: none;
+}
+
+.call button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.contactImage {
+  width: 50%;
+}
+
+.contactImage img {
+  height: 90%;
+  width: 90%;
+  padding: 3% 10%;
+  border-radius: 50% 50% 0% 0%;
+}
+
+/* ----------------------------   footer  ----------------------------- */
+
+.getstarted {
+  margin: 0% 3%;
+  border: 5px solid rgb(64, 64, 125);
+  background-color: blue;
+  border-radius: 0.5rem;
+  padding: 4% 0%;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.getstarted h1 {
+  padding-bottom: 3%;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.getstarted p {
+  font-size: 1rem;
+  color: lightgrey;
+  font-size: 1rem;
+}
+
+.getstarted button {
+  border-radius: 0.5rem;
+  padding: 1% 2%;
+  margin: 2%;
+  border: 2px solid whitesmoke;
+  background-color: rgb(64, 64, 125);
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
+.getstarted button:hover {
+  padding: 1.5% 2.5%;
+  margin: 1.5%;
+  font-size: 1.2rem;
+}
+
+.end {
+  margin: 3%;
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  /* border: 2px solid green; */
+}
+
+.end1 p {
+  color: rgb(68, 67, 67);
+  padding: 1% 0%;
+  font-size: 1.1rem;
+}
+
+.end2 {
+  width: 35%;
+}
+
+.end2 h1 {
+  font-size: 2.5rem;
+  color: blue;
+}
+
+.end2 p {
+  color: rgb(68, 67, 67);
+  padding: 1% 0%;
+}
+
+.endol {
+  list-style-type: none;
+  display: flex;
+}
+
+.endol li {
+  padding: 3% 3% 3% 0%;
+  color: black;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* -------------pseudo------------ */
